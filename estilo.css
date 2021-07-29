@@ -1,0 +1,61 @@
+body {
+    background: rgb(132, 139, 240);
+    font: normal 15pt Arial;
+}
+
+input#txtdia {
+    width: 50px;
+    line-height: 20px;
+    background: rgb(214, 214, 243);
+    border-radius: 5px 5px 5px;
+    border-color: rgb(97, 97, 97);
+}
+
+input#txtmes {
+    width: 50px;
+    line-height: 20px;
+    background: rgb(214, 214, 243);
+    border-radius: 5px 5px 5px;
+    border-color: rgb(97, 97, 97);
+}
+
+input#txtano {
+    width: 70px;
+    line-height: 20px;
+    background: rgb(214, 214, 243);
+    border-radius: 5px 5px 5px;
+    border-color: rgb(97, 97, 97);
+}
+
+input#btverificar {
+    width: 90px;
+    line-height: 30px;
+    background: rgb(132, 139, 240);
+    border-radius: 5px 5px 5px;
+    border-color: rgb(97, 97, 97);
+    color: rgb(255, 255, 255);
+    font: normal 13pt Arial;
+    font-weight: bold;
+    
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

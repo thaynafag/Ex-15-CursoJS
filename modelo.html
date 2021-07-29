@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Data de nascimento:
+                <input type="number" name="txtdia" id="txtdia" maxlength="2" size="2">
+                <input type="number" name="txtmes" id="txtmes" maxlength="2" size="2">
+                <input type="number" name="txtano" id="txtano" maxlength="4" size="4">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radgen" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radgen" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" id = "btverificar" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id = "res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; ThaynaFag</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
